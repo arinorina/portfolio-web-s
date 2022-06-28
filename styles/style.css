@@ -1,17 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Erica+One&family=Kanit:wght@900&family=Lato:wght@900&display=swap");
 
 #d {
-  font-family: "Poppins", sans-serif;
+  font-family: "Chango", cursive;
   text-align: center;
   background: url(../images/2.jpg);
 }
 
 #d p {
-  padding-bottom: 20px;
+  padding: 30px;
   margin-top: 0px;
   color: #2b4b82;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 50px;
 }
 
 #a {
@@ -90,6 +89,11 @@ body {
 
 #projects {
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   background-color: #f7b4a7;
+}
+
+#contacts {
+  color: #2b4b82;
+  padding-bottom: 0;
 }
