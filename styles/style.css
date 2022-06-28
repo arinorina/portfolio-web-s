@@ -1,8 +1,31 @@
-p,
-h1,
-h3,
-li {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+#d {
   font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: url(../images/2.jpg);
+}
+
+#d p {
+  padding-bottom: 20px;
+  margin-top: 0px;
+  color: #2b4b82;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#a {
+  background-color: #f7b4a7;
+  padding: 20px;
+  color: #31356e;
+}
+
+#c {
+  background-color: #2b4b82;
+}
+
+#c .navbar-brand {
+  color: #f7b4a7;
 }
 
 h1 {
@@ -16,7 +39,7 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 2;
   letter-spacing: 1px;
 }
@@ -24,7 +47,49 @@ p {
 img {
   width: 40%;
   border-radius: 20%;
-  box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
   padding: 0.4em;
   margin-bottom: 1em;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 70px;
+}
+
+.card {
+  text-align: center;
+  color: #2b4b82;
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-radius: 0%;
+}
+
+#f i {
+  color: #2b4b82;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#f i:hover {
+  color: #94ddde;
+}
+
+#b {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #2b4b82;
+  color: #f7b4a7;
+}
+
+#projects {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #f7b4a7;
 }
